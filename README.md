@@ -1,6 +1,4 @@
-# Vietnamese Sentiment Assistant
-
-### **Phân loại cảm xúc tiếng Việt sử dụng Transformer (PhoBERT + Streamlit)**
+# Phân loại cảm xúc tiếng Việt sử dụng Transformer (PhoBERT + Streamlit)
 
 > **Đồ án Seminar -- 👥 Nhóm 2 người**
 
@@ -35,12 +33,14 @@ POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
 ## 📁 4. Cấu trúc thư mục
 
     SEMINAR/
-    │── app.py
-    │── requirements.txt
-    │── sentiment.db
-    │── README.md
+    │── app.py                  # File chính chạy ứng dụng Streamlit
+    │── requirements.txt        # Thư viện cần cài đặt
+    │── sentiment.db            # Database lưu lịch sử (tự tạo)
+    │── README.md               # Tài liệu mô tả dự án
+    │
     └── utils/
-        └── teencode_dict.py
+        └── teencode_dict.py    # Từ điển teencode -> tiếng Việt chuẩn
+
 
 ## ⚙️ 5. Hướng dẫn cài đặt
 
