@@ -35,7 +35,7 @@ POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
     SEMINAR/
     │── app.py                  # File chính chạy ứng dụng Streamlit
     │── requirements.txt        # Thư viện cần cài đặt
-    │── sentiment.db            # Database lưu lịch sử (tự tạo)
+    │── history.db              # Database lưu lịch sử (tự tạo)
     │── README.md               # Tài liệu mô tả dự án
     │
 
@@ -62,4 +62,4 @@ Nhập câu tiếng Việt → Nhấn "Phân loại cảm xúc" → Xem kết qu
 
 ## 📚 9. Tài liệu tham khảo
 
-PhoBERT -- VinAI, Hugging Face, Streamlit, Underthesea.
+PhoBERT -- VinAI, Hugging Face, Streamlit.
